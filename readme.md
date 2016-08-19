@@ -30,3 +30,6 @@
 `C-x C-c`: eval expression preceding point
 
 `C-c M-o`: clear buffer
+
+# network stuff
+sudo tcpdump -i any -s0 -vvv -A host $TARGET_HOST
