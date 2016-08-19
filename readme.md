@@ -32,4 +32,4 @@
 `C-c M-o`: clear buffer
 
 # network stuff
-sudo tcpdump -i any -s0 -vvv -A host $TARGET_HOST
+`sudo tcpdump -i any -s0 -vvv -A host $TARGET_HOST` listen to broadcasts from $TARGET_HOST
